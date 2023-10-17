@@ -1,0 +1,79 @@
+.vsimple_panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border-top: 1px solid #444;
+    z-index: 999999999;
+}
+
+.vsimple_panel .toggle-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.vsimple_table{
+    color: #fff;
+    width: 100%;
+}
+
+.vsimple_table th{
+    text-align: left;
+}
+
+.vsimple_table tr{
+    margin: 8px 0;
+}
+
+.vsimple_table tbody tr:nth-child(odd) {
+    background-color: rgb(94, 94, 94);
+}
+
+.vsimple_table thead tr {
+    background-color: #181818;
+}
+
+
+
+.vsimple_panel .panel-content {
+   height: 0;
+}
+
+.vsimple_panel.expanded .panel-content {
+    display: block;
+}
+
+.vsimple_panel .panel-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel_main{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 20px 35px;
+}
+
+.vsimple_panel h2 {
+    font-size: 18px;
+}
+
+.vsimple_panel p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.panel_block{
+    max-height: 500px;
+    margin: 0 35px;
+    overflow-y: auto;
+    width: 100%;
+}

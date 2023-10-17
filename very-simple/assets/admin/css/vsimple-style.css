@@ -1,0 +1,24 @@
+.checkbox_settings{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.chb_inp{
+    margin-bottom: 7px;
+}
+
+pre{
+    display: flex;
+    justify-content: center;
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+input[name="vsimple_settings[with_numbers]"] {
+    margin-left: 20px!important;
+  }
